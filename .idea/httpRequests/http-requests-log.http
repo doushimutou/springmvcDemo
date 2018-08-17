@@ -1,0 +1,344 @@
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T082706.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T082149.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T082142.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T081842.500.json
+
+###
+
+GET http://localhost:1111/api/city1?id=1
+Accept: */*
+
+<> 2018-08-12T081825.200.json
+
+###
+
+GET http://localhost:1111/api/city1?id=1
+Accept: */*
+
+<> 2018-08-12T081649.200.json
+
+###
+
+GET http://localhost:1111/api/city1?cityid=1
+Accept: */*
+
+<> 2018-08-12T081638.400.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T081516.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T081352.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T081234.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T081221.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T080853.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T080852.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T080850.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-12T080632.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-12T080630.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-12T080556.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-12T080554.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-12T080442.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-12T080441.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-12T080439.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-12T080359.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-12T080106.500.json
+
+###
+
+GET http://localhost:1111/api/city1?id=1
+Accept: */*
+
+<> 2018-08-12T075809.200.json
+
+###
+
+GET http://localhost:1111/api/city1?cityid=1
+Accept: */*
+
+<> 2018-08-12T075801-1.400.json
+
+###
+
+GET http://localhost:1111/api/city1?cityid=1
+Accept: */*
+
+<> 2018-08-12T075801.400.json
+
+###
+
+GET http://localhost:1111/api/city1?cityid=1
+Accept: */*
+
+<> 2018-08-12T075800.400.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T075726.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T075718.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T075701.500.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-12T075659.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+###
+
+GET http://localhost:1111/api/city12?id=1
+Accept: */*
+
+<> 2018-08-06T011223.400.json
+
+###
+
+GET http://localhost:1111/api/city12?id=1
+Accept: */*
+
+<> 2018-08-06T011043.400.json
+
+###
+
+GET http://localhost:1111/api/city1?id=1
+Accept: */*
+
+<> 2018-08-06T010348.200.json
+
+###
+
+GET http://localhost:1111/api/city1?cityid=1
+Accept: */*
+
+<> 2018-08-06T010336.400.json
+
+###
+
+GET http://localhost:1111/api/city?cityid=1
+Accept: */*
+
+<> 2018-08-06T010329.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-06T010237.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-05T113128.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-05T112232-4.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-05T112232-3.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-05T112232-2.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-05T112232-1.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-05T112232.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-05T112231.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-05T112228.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-05T112126.500.json
+
+###
+
+GET http://localhost:1111/api/city12?cityid=1
+Accept: */*
+
+<> 2018-08-05T112004.200.json
+
+###
+

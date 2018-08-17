@@ -1,0 +1,8 @@
+{
+  "timestamp": 1534075266906,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "java.lang.NullPointerException",
+  "message": "No message available",
+  "path": "/api/city12"
+}

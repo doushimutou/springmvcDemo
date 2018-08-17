@@ -1,0 +1,8 @@
+{
+  "timestamp": 1533489143702,
+  "status": 400,
+  "error": "Bad Request",
+  "exception": "org.springframework.web.bind.MissingServletRequestParameterException",
+  "message": "Required String parameter 'cityid' is not present",
+  "path": "/api/city12"
+}
