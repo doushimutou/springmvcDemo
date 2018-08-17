@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/admin/Desktop/1/springboot-mybatis-demo">
+
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.ayt.listener.ListenerTest"/>
+
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/admin/Desktop/1/springboot-mybatis-demo">
     <classes>
-        <class name="com.ayt.SpringbootMybatisDemoApplicationTests">
-            <methods><include name="contextLoads"/>
+        <class name="com.ayt.listener.SampleTest">
+            <methods>
+                <include name="testMethodOne"/>
+                <include name="testMethodTwo"/>
+                <include name="testMethodThree"/>
             </methods>
         </class>
     </classes>
