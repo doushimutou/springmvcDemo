@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
  * @Date: 2018/8/18 00:38
  * @Description: Don't worry ,just try
  */
-@Listeners
+@Listeners(CITestListener.class)
 public class SampleTest {
     @Test
     public void testMethodOne(){
