@@ -18,7 +18,10 @@ import java.util.Random;
 
 
 public class DataProvider1{
-
+    /**
+     *  但是dataProvider作为数据提供者只能返回Object[][]和Iterator<Object[]>类型的数据
+     * @return
+     */
     @DataProvider(name = "create")
     public Object[][] dataCreate(){
         int lower=5;

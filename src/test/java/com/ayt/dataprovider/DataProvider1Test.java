@@ -17,6 +17,7 @@ import java.util.Map;
 @SpringBootTest
 public class DataProvider1Test {
     private static Logger logger=Logger.getLogger(DataProvider1Test.class);
+
     @Test(dataProvider = "create",dataProviderClass = DataProvider1.class)
     public void testDataCreat(int x,int y,int z,boolean expected){
 
@@ -24,6 +25,7 @@ public class DataProvider1Test {
        logger.info(expected);
 
     }
+
     @Test(dataProvider = "create",dataProviderClass = DataProvider1.class)
     public void testDataCreat1(Object[][] objects){
 
@@ -36,12 +38,7 @@ public class DataProvider1Test {
                  logger.info(objects[i][j]);
             }
         }
-
-
         }
-
-
-
 
     @Test(dataProvider = "create1",dataProviderClass = DataProvider1.class)
     public void two (int x){
