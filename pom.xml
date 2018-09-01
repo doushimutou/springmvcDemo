@@ -22,6 +22,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<!--<selenium-java-version>3.4.0</selenium-java-version>-->
+		<!--<selenium-firefox-driver-version>3.4.0</selenium-firefox-driver-version>-->
+		<!--<selenium-server-service>2.44.0</selenium-server-service>-->
 	</properties>
 
 	<dependencies>
@@ -122,8 +125,19 @@
             <artifactId>poi-ooxml</artifactId>
             <version>3.17</version>
         </dependency>
+		<!--selenium-->
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.4.0</version>
+		</dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi ，Excel操作类-->
+
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi ，Excel操作类-->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>

@@ -12,5 +12,5 @@ public interface CityMapper {
     int insertSelective(City record);
 //    List<City> getCity();
 @SuppressWarnings("AlibabaCommentsMustBeJavadocFormat")
-City  findById(@Param("id")String id);
+    City  findById(@Param("id")String id);
 }

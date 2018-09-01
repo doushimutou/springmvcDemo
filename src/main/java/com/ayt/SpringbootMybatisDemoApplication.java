@@ -6,10 +6,11 @@ package com.ayt;
 		import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.ayt.mapper")
+@MapperScan("com.ayt")
 public class SpringbootMybatisDemoApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(SpringbootMybatisDemoApplication.class, args);
 	}
 }
