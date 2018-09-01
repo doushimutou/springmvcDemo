@@ -1,10 +1,12 @@
 package com.ayt.webui.testcase;
 
 import com.ayt.SpringbootMybatisDemoApplication;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.stereotype.Component;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
@@ -24,10 +26,11 @@ public class BaseCase extends AbstractTestNGSpringContextTests{
 
     public static Logger logger = LoggerFactory.getLogger(BaseCase.class);
 
+    @Value("${webDriver}")
+    String webDriver;
+    @Value("${webDriver.Win.Value}")
+    String webDriverWinValue ;
 
-    String webDriver="webdriver.chrome.driver";
-
-    String webDriverWinValue ="E:/mygit/testngDemoLearn/chromedriver/chromedriver.exe";
     public static WebDriver driver;
 
     @BeforeSuite
@@ -37,14 +40,16 @@ public class BaseCase extends AbstractTestNGSpringContextTests{
 
 
     @BeforeClass
-    public void initTest()  {
+    public void initTest() throws InterruptedException {
 
         logger.info(webDriver+webDriverWinValue);
 
         System.setProperty(webDriver,webDriverWinValue);
 
         driver = new ChromeDriver();
+
         driver.manage().window().maximize();
+
 
 
     }
@@ -56,17 +61,17 @@ public class BaseCase extends AbstractTestNGSpringContextTests{
         driver.quit();
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /**
+     * 判断元素是否存在
+     * @param by
+     * @return
+     */
+    public static boolean isElementExist(By by) {
+        boolean isExist=false;
+        int length=driver.findElements(by).size();
+        if(length>0){
+            isExist=true;
+        }
+        return isExist;
+    }
 }

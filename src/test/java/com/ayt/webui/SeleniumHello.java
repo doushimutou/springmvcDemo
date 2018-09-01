@@ -17,7 +17,7 @@ public class SeleniumHello {
     public static void main(String[] args) throws InterruptedException {
         String webDriver="webdriver.chrome.driver";
 
-        String webDriverWinValue ="E:\\DWD-Test-webUI-test\\chromedriver\\chromedriver.exe";
+        String webDriverWinValue ="./chromedriver/chromedriver.exe";
 
 
         System.setProperty(webDriver, webDriverWinValue);
