@@ -20,6 +20,8 @@ public class CaseDemoTest extends BaseCase{
     @Test(dataProvider = "dataprovider",dataProviderClass = DataProviderOnly.class)
     public void caseDemo(Map<String ,String> data) throws InterruptedException {
         driver.get("http://www.baidu.com/" );
+
+
         BaseAction baseAction= new BaseAction(driver);
         baseAction.wait(5);
         baseAction.setSearch(data,driver);

@@ -33,31 +33,19 @@ public class BaseCase extends AbstractTestNGSpringContextTests{
 
     public static WebDriver driver;
 
-    @BeforeSuite
-    public void initSuite(){
-        //初始化整个项目，如配置数据同步
-    }
-
-
     @BeforeClass
     public void initTest() throws InterruptedException {
 
         logger.info(webDriver+webDriverWinValue);
-
         System.setProperty(webDriver,webDriverWinValue);
-
         driver = new ChromeDriver();
-
         driver.manage().window().maximize();
-
-
-
     }
 
     @AfterClass
     public void close(){
-        //关闭浏览器等操作，当然你也可以放在@AfterTest或@AfterMethod
-        logger.info("关闭浏览器...");
+        //关闭浏览器
+        logger.info("关闭浏览器");
         driver.quit();
     }
 
