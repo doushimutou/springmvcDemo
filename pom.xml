@@ -25,6 +25,8 @@
 		<!--<selenium-java-version>3.4.0</selenium-java-version>-->
 		<!--<selenium-firefox-driver-version>3.4.0</selenium-firefox-driver-version>-->
 		<!--<selenium-server-service>2.44.0</selenium-server-service>-->
+        <spring-data-mongodb.version>1.9.6.RELEASE</spring-data-mongodb.version>
+        <mongo-java-driver.version>3.3.0</mongo-java-driver.version>
 	</properties>
 
 	<dependencies>
@@ -51,7 +53,11 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.47</version>
         </dependency>
-
+        <!--mongo-->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+        </dependency>
 
         <dependency>
 			<groupId>org.springframework.boot</groupId>
